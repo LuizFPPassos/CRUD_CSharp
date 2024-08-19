@@ -1,6 +1,6 @@
 ﻿// Basic CRUD operations with SQL Server in C#
 // By Luiz Passos
-// Lastest update: May 20, 2024
+// Lastest update: Aug 19, 2024
 
 // Simple console interface
 
@@ -153,6 +153,16 @@ namespace CRUD_CSharp
                                             {
                                                 clientService.RegisterClient(client);
                                                 Console.WriteLine("Client registered.");
+                                                client = null;
+                                                name = "";
+                                                email = "";
+                                                phone = "";
+                                                address = "";
+
+                                                validName = false;
+                                                validEmail = false;
+                                                validPhone = false;
+                                                validAddress = false;
                                                 break;
                                             }
                                             catch (IOException ex)

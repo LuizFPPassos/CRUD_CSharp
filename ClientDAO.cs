@@ -1,6 +1,6 @@
 ﻿// Basic CRUD operations with SQL Server in C#
 // By Luiz Passos
-// Lastest update: May 20, 2024
+// Lastest update: Aug 19, 2024
 
 // DAO class that executes SQL CRUD commands and returns the results to the Service class
 

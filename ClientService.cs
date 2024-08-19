@@ -1,6 +1,6 @@
 ﻿// Basic CRUD operations with SQL Server in C#
 // By Luiz Passos
-// Lastest update: May 20, 2024
+// Lastest update: Aug 19, 2024
 
 // Service class that executes validations, calls for DAO methods, and throws exceptions messages where applicable
 
